@@ -186,3 +186,79 @@ main {
 .video iframe {
   border-radius: 16px;
 }
+
+.current-target-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 97px 80px 97px;
+  text-align: center;
+}
+
+.current-target-title {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.current-target-description {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.skill-bg1 {
+  width: 364px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-bg2 {
+  width: 364px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-bg3 {
+  width: 364px;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.html-title,
+.css-title,
+.js-title {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.html-description,
+.css-description,
+.js-description {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.skills img {
+  margin-bottom: 24px;
+}
