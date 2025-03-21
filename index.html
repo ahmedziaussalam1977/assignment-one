@@ -33,7 +33,9 @@
             and creating innovative solutions. With dedication and continuous
             learning, I aim to build impactful software and applications.
           </p>
-          <a href=""><button class="secondery-btn">Contact with me</button></a>
+          <button class="secondary-btn" onclick="scrollToContact()">
+            Contact with me
+          </button>
         </div>
       </section>
     </header>
@@ -164,7 +166,103 @@
           </div>
         </div>
       </section>
+
+      <section class="next-target">
+        <div class="next-target-container">
+          <h3 class="next-target-title">My Next Target</h3>
+          <p class="next-target-description">
+            My next target is to master ReactJS, NodeJS, and MongoDB to build
+            dynamic, powerful, and scalable web applications.
+          </p>
+        </div>
+        <div class="skills_2">
+          <div class="reactjs-img">
+            <img src="assets/react.png" alt="" />
+          </div>
+          <div class="reactjs-txt">
+            <h3 class="reactjs-title">ReactJS</h3>
+            <p class="reactjs-description">
+              ReactJS is a powerful JavaScript library for building fast,
+              dynamic, and interactive user interfaces. It makes web development
+              efficient with its component-based architecture and virtual DOM.
+            </p>
+            <a href="#"><u>Learn More</u></a>
+          </div>
+        </div>
+
+        <div class="skills_2">
+          <div class="nodejs-img">
+            <img src="assets/nodejs.png" alt="" />
+          </div>
+          <div class="nodejs-txt">
+            <h3 class="nodejs-title">NodeJS</h3>
+            <p class="nodejs-description">
+              NodeJS is a powerful runtime environment that allows JavaScript to
+              run on the server side. It enables fast, scalable, and efficient
+              backend development for modern web applications.
+            </p>
+            <a href="#"><u>Learn More</u></a>
+          </div>
+        </div>
+
+        <div class="skills_2">
+          <div class="mongo-img">
+            <img src="assets/mongodb.png" alt="" />
+          </div>
+          <div class="mongo-txt">
+            <h3 class="mongo-title">MongoDB</h3>
+            <p class="mongo-description">
+              MongoDB is a flexible, NoSQL database that stores data in a
+              JSON-like format for scalability and efficiency. It is widely used
+              for modern web applications due to its speed, flexibility, and
+              ease of integration.
+            </p>
+            <a href="#"><u>Learn More</u></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="msg" class="support-msg support-bg">
+        <div class="support-msg-container">
+          <h3 class="support-msg-title">I need Support</h3>
+          <p class="support-msg-description">
+            I need support to stay motivated and keep learning as I grow in web
+            development. Encouragement and guidance will help me achieve my
+            goals and create impactful solutions.
+          </p>
+          <div class="msg-box">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="1"
+              placeholder="Suggest me any feedback for me"
+            ></textarea>
+            <a href="#"><input type="button" value="submit" /></a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <p>An Open Commitment by Ahmed Zia</p>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/"
+            ><img src="assets/facebook.png" alt=""
+          /></a>
+          <a href="https://github.com/"
+            ><img src="assets/github.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="assets/linkedin-icon 1.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function scrollToContact() {
+        document.getElementById("msg").scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
   </body>
 </html>
