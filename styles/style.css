@@ -79,3 +79,75 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+/* why-web style */
+
+.about-web-dev {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  margin-top: 74px;
+}
+
+.section-title {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.about-web-dev-container {
+  display: flex;
+  padding: 48px 48px 48px 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.about-web-dev-column {
+  padding-right: 92px;
+}
+
+.web-dev-column-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.web-dev-column-description {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.lm-btn {
+  padding: 12px 20px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+}
+
+.about-web-dev-img2 {
+  margin-right: 32px;
+}
+
+.about-web-dev-container2 {
+  display: flex;
+  padding: 48px 48px 48px 48px;
+  border-radius: 16px;
+  border-radius: 16px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 32px 0 32px 0;
+}
